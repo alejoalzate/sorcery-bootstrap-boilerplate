@@ -5,7 +5,7 @@ Built off [the sample Sorcery app](https://github.com/NoamB/sorcery), this is a 
 The code could have been better cleaned up, but it is mostly ready to go.
 
 ## Screenshot
-<img src="assets/screenshot.png" alt="Screen Shot" style="width: 100%">
+<img src="i.imgur.com/lguCQ2n.png" alt="Screen Shot" style="width: 100%">
 
 Note that Sign Up has not been integrated into this template yet.
 There are view files located in the app/views/users/ directory that one can use.
