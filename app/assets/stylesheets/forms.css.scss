@@ -1,0 +1,106 @@
+#a form {
+    width: 417px;
+    margin: auto;
+    padding-right: 12px;
+  label {
+    display: block;
+    margin-bottom: 3px;
+    color: #8E8E8E;
+  }
+  textarea {
+    height: 75px;
+    max-width: 100%;
+  }
+  input, select, textarea, select {
+    margin-left: 0;
+    margin-bottom: 16px;
+    border: 1px solid #CCC;
+  }
+  input[type="password"], input[type="text"], input[type="email"], textarea{
+    padding: 5px;
+    padding-left: 10px;
+    display: block;
+    font-size: 14px;
+    color: #8E8E8E;
+    background-color: #efefef;
+    border: solid 1px #dedede;
+    box-shadow: inset -6px -5px 9px -4px  #DEDEDE, inset 3px 2px 3px #DEDEDE;
+    border-radius: 3px;
+    width: 100%;
+
+  }
+  input[type="text"]:focus, textarea:focus {
+    outline-color: #83d0cd;
+  }
+}
+
+.inline {
+  display: inline-block !important;
+}
+.half {
+  width: 175px !important;
+}
+.left {
+  margin-right: 46px !important;
+}
+
+
+.form {
+  position: relative;
+  top: 6px;
+}
+.form.inline.half{
+  width: 192px !important;
+}
+.form.inline.half.left{
+  margin-right: 29px !important;
+}
+
+
+.event_price_string {
+  width: 333px;
+}
+
+.form-errors {
+  color: red;
+}
+input[type="submit"]{
+  cursor: pointer;
+}
+.select.form.full-width{
+  width: 417px;
+}
+input[type="password"].full-width, input[type="text"].full-width, textarea.full-width {
+  width: 400px;
+}
+
+
+// Custom
+
+#new_user {
+  width: 520px;
+}
+
+.slidedown.signup form {
+  height: 245px;
+}
+
+// Sign in, Reset Password
+
+#reset-password-form {
+  display: none;
+}
+
+div.slidedown.edit-user {
+  height: 255px;
+}
+
+// New Event Form Customization
+#new_event small {
+  padding-bottom: 10px;
+  display: inline-block;
+}
+#event_summary {
+  margin-bottom: 0;
+}
+

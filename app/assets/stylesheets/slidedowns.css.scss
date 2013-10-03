@@ -1,0 +1,58 @@
+#social-signin {
+  a img {
+    background-image: url('/assets/tfl_signin.png');
+    width: 170px;
+    height: 38px;
+  }
+}
+.twitter {
+  background-position: 0px 0px;
+}
+.facebook {
+  background-position: 0px -48px;
+}
+.linkedin {
+  background-position: 0px -93px;
+}
+
+// form
+
+
+.slidedown {
+  position: relative;
+  top: 3px;
+  right: 4px;
+  display: none;
+
+}
+div.slidedown {
+  width: 150px;
+  height: 210px;
+  background-color:  #323232;
+  padding-right: 50px;
+  padding-left: 20px;
+  border: solid 1px #262626;
+  padding-top: 15px;
+  font-size: 14px;
+}
+.slidedown form {
+  width: 100%;
+}
+
+.slidedown input[type="text"], .slidedown input[type="password"], .slidedown input[type="email"], .slidedown select {
+  background-color: #000000;
+  box-shadow: none;
+  border: none;
+  font-size: 14px;
+  width: 165px;
+}
+
+.slidedown select {
+  width: 180px;
+  color: #eeeeee;
+}
+
+#add-user {
+  padding-left: 10px;
+  padding-right: 10px;
+}
