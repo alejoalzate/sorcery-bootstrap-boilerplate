@@ -1,5 +1,5 @@
 class UserMailer < ActionMailer::Base
-  @@domain = (("http://myapp.com" if Rails.env.production?) || "http://localhost:3000")
+  @@domain = (("http://myapp.herokuapp.com" if Rails.env.production?) || "http://localhost:3000")
 
   default :from => "notifications@example.com"
 

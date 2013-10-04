@@ -22,8 +22,6 @@ Collaboration::Application.routes.draw do
   end
   match "oauth/:provider" => "oauths#oauth", :as => :auth_at_provider
 
-  resources :events
-
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

@@ -44,8 +44,8 @@ Collaboration::Application.configure do
   config.action_mailer.smtp_settings = {
     :address              => "smtp.gmail.com",
     :port                 => 587,
-    :user_name            => 'myapp@myapp.com',# put your real username here to send emails.
-    :password             => 'super_secret_myapp', # put your real password here to send emails.
+    :user_name            => ENV["myapp_USERNAME"],# put your real username here to send emails.
+    :password             => ENV["myapp_PASSWORD"], # put your real password here to send emails.
     :authentication       => 'plain',
     :enable_starttls_auto => true  }
 
